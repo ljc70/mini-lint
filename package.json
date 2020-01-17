@@ -10,8 +10,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test1"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "src/**/*.{js}": [
+      "eslint .js"
+   ]
   },
   "keywords": [
     "mini",
