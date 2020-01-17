@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test1"
+      "pre-commit": "npm run test1"
     }
   },
   "keywords": [
