@@ -1,2 +1,2 @@
-let a = 1
+let a = 122
 console.log('a-------->', a)
